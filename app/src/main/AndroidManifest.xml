@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shilpika.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splashicon"
+        android:label="Agricultural Aid"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".IconsActivity"></activity>
+        <activity
+            android:name=".GovernmentActivity"
+            android:value="AIzaSyCD9zFhh_cmfOZXXHA2_GpE3JfdMFTIids" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".SolutionActivity" />
+        <activity android:name=".CalcActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".SlideActivity" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="Sign In" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/nav_menu_settings"
+            android:parentActivityName=".Main2Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".Main2Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".WeatherForecastActivity"
+            android:label="@string/label_activity_weather_forecast"
+            android:parentActivityName=".Main2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".GraphsActivity"
+            android:label="@string/label_activity_graphs"
+            android:parentActivityName=".Main2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".LicenseActivity"
+            android:exported="false"
+            tools:ignore="GoogleAppIndexingUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:pathPrefix="/android_asset/licenses/"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.StartupReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".widget.LessWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="com.example.shilpika.myapplication.action.FORCED_APPWIDGET_UPDATE" />
+                <action android:name="com.example.shilpika.myapplication.action.APPWIDGET_THEME_CHANGED" />
+                <action android:name="com.example.shilpika.myapplication.action.APPWIDGET_UPDATE_PERIOD_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_less" />
+        </receiver>
+        <receiver android:name=".widget.MoreWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="com.example.shilpika.myapplication.action.FORCED_APPWIDGET_UPDATE" />
+                <action android:name="com.example.shilpika.myapplication.action.APPWIDGET_THEME_CHANGED" />
+                <action android:name="com.example.shilpika.myapplication.action.APPWIDGET_UPDATE_PERIOD_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_more" />
+        </receiver>
+
+        <service android:name=".service.NotificationService" />
+        <service android:name=".widget.LessWidgetService" />
+        <service android:name=".widget.MoreWidgetService" />
+        <service android:name=".service.CurrentWeatherService" />
+        <service android:name=".service.LocationUpdateService" />
+    </application>
+
+</manifest>

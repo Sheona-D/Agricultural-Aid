@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agricultural Aid</string>
+    <string name="title_activity_login"> साइन इन करा</string>
+    <string name="prompt_email">फोन नंबर</string>
+    <string name="prompt_password">संकेतशब्द</string>
+    <string name="action_sign_in">साइन इन करा</string>
+    <string name="welcome">"स्वागत आहे!"</string>
+    <string name="invalid_username">वैध वापरकर्तानाव नाही</string>
+    <string name="invalid_password">संकेतशब्द> 5 वर्णांचा असणे आवश्यक आहे</string>
+    <string name="login_failed">"लॉगिन अयशस्वी"</string>
+
+    <string name="enter_hectares">हेक्टर क्षेत्र प्रविष्ट करा</string>
+    <string name="subtract">वजा करा</string>
+    <string name="add">जोडा</string>
+    <string name="confirm">पुष्टी</string>
+    <string name="selectimage">चित्र निवडा</string>
+    <string name="uploadimage">चित्र अपलोड करा</string>
+    <string name="fertilizer">खत कॅल्क्युलेटर</string>
+    <string name="agriagencies">Agro Agencies</string>
+    <string name="weather">हवामान</string>
+    <string name="showsymptoms">Show Symptoms</string>
+    <string name="showcauses">Show Causes</string>
+    <string name="showcomments">Show Comments</string>
+
+    <string name="enter_city_hint">शहरात प्रवेश करा</string>
+    <string name="label_current_city">सध्याचे शहर</string>
+    <string name="label_choose_city">शहर निवडा</string>
+    <string name="feedback_email" translatable="false">massintmog@gmail.com</string>
+    <string name="alertDialog_gps_title" translatable="false">जीपीएस सेटिंग्ज आहेत</string>
+    <string name="alertDialog_gps_message">जीपीएस सक्षम केलेला नाही. आपण सेटिंग्ज मेनूवर जाऊ इच्छिता?</string>
+    <string name="alertDialog_gps_positiveButton">सेटिंग्ज</string>
+    <string name="alertDialog_gps_negativeButton">रद्द करा</string>
+    <string name="progressDialog_gps_locate">वर्तमान स्थान शोधा</string>
+    <string name="load_progress">लोड करीत आहे…</string>
+
+    <!-- Activity names -->
+    <string name="title_activity_search">शोध स्थान</string>
+    <string name="label_activity_main">सध्याचे हवामान</string>
+    <string name="label_activity_weather_forecast">दैनिक अंदाज</string>
+    <string name="label_activity_graphs">आलेख हवामान</string>
+    <string name="title_activity_license">% S साठी परवाना</string>
+
+        <!-- Toolbar menu -->
+    <string name="toolbar_menu_refresh">अद्यतनित करा</string>
+    <string name="toolbar_menu_search_city">शोध शहर</string>
+    <string name="toolbar_menu_detect_location">स्थान शोधा</string>
+    <string name="menu_action_toggle_values">मूल्ये टॉगल करा</string>
+    <string name="menu_action_toggle_yaxis">वाय-अ‍ॅक्सिस टॉगल करा</string>
+
+    <!-- Navigation drawer -->
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open" translatable="false">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close" translatable="false">नेव्हिगेशन ड्रॉवर बंद करा</string>
+    <string name="nav_menu_current_weather">सध्याचे हवामान</string>
+    <string name="nav_menu_daily_forecast">दैनिक अंदाज</string>
+    <string name="nav_menu_graphs">आलेख</string>
+    <string name="nav_menu_settings">सेटिंग्ज</string>
+    <string name="nav_feedback">अभिप्राय</string>
+    <string name="nav_menu_bitcoin_donation">बिटकॉइन दान करा</string>
+
+    <!-- Toast messages -->
+    <string name="connection_not_found">आपले इंटरनेट कनेक्शन तपासा</string>
+    <string name="toast_parse_error">त्रुटी आढळली आहे. नंतर प्रयत्न करा! कनेक्शन</string>
+
+    <!-- Weather icons -->
+    <string name="icon_clear_sky_day" translatable="false"></string>
+    <string name="icon_clear_sky_night" translatable="false"></string>
+    <string name="icon_few_clouds_day" translatable="false"></string>
+    <string name="icon_few_clouds_night" translatable="false"></string>
+    <string name="icon_scattered_clouds" translatable="false"></string>
+    <string name="icon_broken_clouds" translatable="false"></string>
+    <string name="icon_shower_rain" translatable="false"></string>
+    <string name="icon_rain_day" translatable="false"></string>
+    <string name="icon_rain_night" translatable="false"></string>
+    <string name="icon_thunderstorm" translatable="false"></string>
+    <string name="icon_snow" translatable="false"></string>
+    <string name="icon_mist" translatable="false"></string>
+    <string name="icon_weather_default" translatable="false"></string>
+    <string name="icon_wind" translatable="false"></string>
+    <string name="icon_humidity" translatable="false"></string>
+    <string name="icon_barometer" translatable="false"></string>
+    <string name="icon_cloudiness" translatable="false"></string>
+    <string name="icon_sunrise" translatable="false"></string>
+    <string name="icon_sunset" translatable="false"></string>
+
+    <!-- Units and Measurement-->
+    <string name="percent_sign" translatable="false">\u0025</string>
+    <string name="temperature_with_degree" translatable="false">%s\u00B0</string>
+    <string name="pressure_measurement">hPa</string>
+    <string name="wind_speed_meters">m/s</string>
+    <string name="wind_speed_miles">mph</string>
+    <string name="millimetre_label">mm</string>
+
+    <!-- Search Screen strings -->
+    <string name="hint_activity_search">शोध स्थान</string>
+
+    <!-- Preference Screen strings -->
+    <string name="title_activity_settings">सेटिंग्ज</string>
+    <string name="pref_title_temperature">तापमान</string>
+    <string name="preference_hide_desc">हवामान वर्णन लपवा</string>
+    <string name="pref_title_category_notification">अधिसूचना</string>
+    <string name="pref_title_notification">सूचना सक्षम करा</string>
+    <string name="pref_title_notification_refresh_interval">रीफ्रेश</string>
+    <string name="update_period_15min">15 मिनिटे</string>
+    <string name="update_period_30min">30 मिनिटे</string>
+    <string name="update_period_1hour">प्रत्येक तासाला</string>
+    <string name="update_period_3hours">3 तास</string>
+    <string name="update_period_6hours">6 तास</string>
+    <string name="update_period_12hours">12 तास</string>
+    <string name="update_period_24hours">24 तास</string>
+    <string name="pref_title_vibrate">कंपन</string>
+    <string name="preference_widget_title_update_period">अद्यतन कालावधी</string>
+    <string name="preference_title_activity_general">सामान्य सेटिंग्ज</string>
+    <string name="preference_title_activity_widget">विजेट सेटिंग्ज</string>
+    <string name="preference_widget_update_location">स्थान अद्यतनित करा</string>
+    <string name="preference_widget_use_geocoder">प्रदर्शित करण्यासाठी भौगोलिक स्थान वापरा</string>
+    <string name="preference_widget_theme_title">विजेट थीम</string>
+    <string name="theme_dark">गडद</string>
+    <string name="theme_light">प्रकाश</string>
+    <string name="theme_transparent">पारदर्शक</string>
+    <string name="preference_title_category_display">प्रदर्शन</string>
+    <string name="pref_title_language">इंग्रजी</string>
+    <string name="pref_language_default">सिस्टम डीफॉल्ट</string>
+    <string name="pref_title_theme">थीम</string>
+
+    <!-- Preference Screen About -->
+    <string name="preference_title_activity_about">बद्दल</string>
+    <string name="about_version_pref_title">आवृत्ती</string>
+    <string name="about_source_code_pref_title">मूळ सांकेतिक शब्दकोश</string>
+    <string name="about_app_license_pref_title">परवाना</string>
+    <string name="about_f_droid_pref_title" translatable="false">F-Droid</string>
+    <string name="about_google_play_pref_title" translatable="false">Google Play</string>
+    <string name="about_open_source_licenses_pref_title">Open Source licenses</string>
+
+    <!-- Weather conditions label strings -->
+    <string name="wind_label">वारा: %1$s %2$s</string>
+    <string name="rain_label">पाऊस: %1$s %2$s</string>
+    <string name="snow_label">हिमवर्षाव: %1$s %2$s</string>
+    <string name="humidity_label">आर्द्रता: %1$s%2$s</string>
+    <string name="pressure_label">दबाव:  %1$s %2$s</string>
+    <string name="cloudiness_label">ढगाळपणा: %1$s%2$s</string>
+    <string name="last_update_label">शेवटचे अद्यतनः %s</string>
+    <string name="sunrise_label">सूर्योदय: %s</string>
+    <string name="sunset_label">सूर्यास्त: %s</string>
+    <string name="temperature_morning_title">सकाळ</string>
+    <string name="temperature_day_title">दिवस</string>
+    <string name="temperature_evening_title">संध्याकाळ</string>
+    <string name="temperature_night_title">रात्री</string>
+    <string name="temperature_and_scale_label" translatable="false">%1$s%2$s</string>
+    <string name="label_temperature">तापमान</string>
+    <string name="label_wind">वारा:</string>
+    <string name="label_rain">पाऊस:</string>
+    <string name="label_snow">हिमवर्षाव:</string>
+
+    <!-- Widgets strings -->
+    <string name="widget_weather_icon_description">वर्तमान हवामान चिन्ह</string>
+    <string name="widget_refresh_button">विजेट रीफ्रेश बटण</string>
+
+    <!-- Donation Bitcoin dialog -->
+    <string name="donation_bitcoin_qr_description">Donation Bitcoin QR code</string>
+    <string name="donation_bitcoin_copy_button">Copy Bitcoin Address</string>
+    <string name="donation_bitcoin_open_app">Open Bitcoin App</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin address was copied to the clipboard</string>
+
+    <!-- Wind directions -->
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_north_west">NW</string>
+
+    <string name="default_daily_forecast" translatable="false">[{"cloudiness":"6","windSpeed":"1.5","description":"Clear","humidity":"45","icon":"10d","pressure":"1000","windDegree":"303","temperatureEvening":"14.63","dateTime":"1471673520","temperatureMin":"10.38","temperatureMorning":"15.9","temperatureNight":"10.38","temperatureDay":"15.9","temperatureMax":"16.52","rain":"2","snow":"5"}]</string>
+
+    <!-- Permission strings -->
+    <string name="permission_location_rationale">सध्याचे शहर निश्चित करण्यासाठी स्थान परवानग्या आवश्यक आहेत</string>
+    <string name="permission_not_granted">परवानग्या देण्यात आल्या नव्हत्या!</string>
+    <string name="permission_available_location">स्थान परवानग्या मंजूर झाल्या आहेत</string>
+    <string name="permission_location_need">आपण स्थान परवानग्या मंजूर करणे आवश्यक आहे</string>
+
+    <!-- Dialog strings -->
+    <string name="restart_dialog_message">कृपया नवीन सेटिंग्ज लागू करण्यासाठी अनुप्रयोग रीस्टार्ट करा</string>
+    <string name="solution_goes_here">समाधान येथे आहे</string>
+    </resources>

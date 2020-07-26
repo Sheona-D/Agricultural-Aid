@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/icon_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="Heading"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite_Instructions"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image_icon" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:padding="25dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, justo sed porta auctor, odio ipsum convallis diam, sit amet cursus risus tortor eget magna. Mauris in lobortis nulla. Suspendisse potenti."
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite_Instructions"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heading"
+        app:layout_constraintVertical_bias="0.044"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
